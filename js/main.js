@@ -103,7 +103,7 @@ $('.back-to-top').click(function () {
 */
 
 $(".me").click(function (e) {
-  $(".me").prop("src", "../img/hero-bg.jpg");
+  $(".me").prop("src", "../img/me.png");
 });
 
 
