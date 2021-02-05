@@ -1,14 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        crossorigin="anonymous" />
+
+    <link href="./css/main.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <title>My Portfolio</title>
+
 </head>
+
 <body>
 
-    <a href="./test/hello.html">To Test</a>
-    Hello1!!
+    <button id="oc" class=" d-md-none btn btn-outline d-flex w-100 justify-content-end mt-2 closed">
+        <i class="fas fa-bars fa-lg"></i>
+    </button>
+
+    <!--
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Button</span>
+      </button>
+    -->
+    <div id="wrapper" class="wrapper ">
+
+        <ul class="d-flex flex-column align-items-center rounded m-1 p-2 ">
+
+            <li class="nav-i active">
+                <a href="#meerkat">
+                    <i class="fas fa-home fa-2x icon"></i>
+                </a>
+            </li>
+
+            <li class="nav-i">
+                <a href="#about">
+                    <i class="fas fa-user fa-2x icon"></i>
+                </a>
+            </li>
+
+            <li class="nav-i">
+                <a href="#services">
+                    <i class="fas fa-home fa-2x icon"></i>
+                </a>
+            </li>
+
+            <li class="nav-i">
+                <a href="#portfolio">
+                    <i class="fab fa-megaport fa-2x icon"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fas fa-id-badge fa-2x icon"></i>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+    
+
+    <section id="meerkat" class="d-flex flex-column justify-content-center text-center text-xl-start ">
+
+        <div class=" container aos-init aos-animate meer" data-aos="zoom-in" data-aos-delay="100">
+            <h1>PABLO DELGADO</h1>
+            <p>
+                <span class="typed"
+                    data-typed-items="Desarrollador Web, Desarrollador Multiplataforma, Desarrollador Spigot "></span>
+                <span class="typed-cursor"></span>
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/pablockda" class="google-plus" target="_blank">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/meerkatdev" class="linkedin" target="_blank">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+
+                <a href="https://www.spigotmc.org/resources/authors/pablockda.106309/" target="_blank">
+                    <i class="fas fa-faucet fa-lg"></i>
+                </a>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <main>
+
+
+        <section id="about" class="">
+
+            <div class="py-5 container aos-init aos-animate" data-aos="fade-up">
+
+                <div class="row aboutme text-center mb-3">
+                    <h1 class="font-mont bars">Meerkat</h1>
+                </div>
+
+                <div class=" row aboutinfo">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <img src="./img/me.png" class="img-fluid me rounded" alt="">
+                    </div>
+                    <div class="col-8 d-flex">
+                        <h3 class="font-mont"> Full Stack Developer</h3>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <div class="container">
+
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+            <p>Hello World!</p>
+        </div>
+    </main>
+
+    <div class="container">
+
+
+    </div>
+
+    <footer>
+
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-alt-circle-up"></i>
+        </a>
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+    <script src="./js/main.js"></script>
+
 </body>
+
 </html>
